@@ -15,11 +15,13 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.junit.jupiter:junit-jupiter:5.7.0'
+	implementation 'org.junit.jupiter:junit-jupiter:5.7.0'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
-	implementation 'org.apache.commons:commons-csv:1.4'
+	implementation 'org.apache.commons:commons-csv:1.8'
 	testImplementation("org.jmockit:jmockit:1.49")
 }
 
